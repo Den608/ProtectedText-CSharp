@@ -44,7 +44,7 @@ namespace RunJavascript5
                 for (int i = 0; i < textLength; i++)
                 {
                     int s = 0;
-                    string w = textWords[i];
+                    string w = textWords[i].Trim();
                     string t = "";
                     if (int.TryParse(w, out _)) continue;
                     if (check(w))
@@ -55,7 +55,7 @@ namespace RunJavascript5
                         while (i < textLength - 1)
                         {
                             i++;
-                            w = textWords[i];
+                            w = textWords[i].Trim();
                             if (int.TryParse(w, out _)) continue;
                             if (check(w))
                             {
