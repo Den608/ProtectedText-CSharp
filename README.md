@@ -1,3 +1,3 @@
-# RunJavascript5
+# ProtectedText-CSharp
  
-Run Javascript5 on C#.
+Brute force password attacker for www.protectedtext.com using C# and Javascript(ES5) engine.
